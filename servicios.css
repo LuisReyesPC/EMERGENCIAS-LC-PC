@@ -1,0 +1,310 @@
+/*ENCABEZADO
+ 
+  esto es el margen del texto 
+  height: 20px;
+  width: 200px;
+  display: inline-block;  Hace que el contenedor se ajuste al tamaño del texto
+  margin: 1px; Establece un margen alrededor del texto
+
+
+*/
+body {
+    max-width: 1500px; /* Establece el ancho máximo de la página en 1200 píxeles */
+    margin: 0 auto; /* Centra la página horizontalmente en la ventana del navegador */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fondo{
+color: grey;
+background-color: grey;
+background-size: auto;
+width: 100%;
+height: 90px;
+position: relative;
+bottom:15px;
+
+}
+.titulo {
+text-align: center;
+background-color: red;
+position: relative;
+bottom: 90px;
+font-size: 50px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+
+
+}
+
+.PC {
+  position: relative;
+  left: 110px;
+  bottom: 165px;
+  color: white;
+  display: inline-block;
+  margin: 1px;
+  font-weight: 600;
+}
+.LC {
+  position: relative;
+  bottom: 165px;;
+  left: 117px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: inline-block;
+  margin: 1px;
+  font-weight: 600;
+}
+.GA {
+  position: relative;
+  left:124px;
+  bottom: 165px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: inline-block;
+  margin: 1px;
+  font-weight: 600;
+}
+.img {
+position: relative;
+left: auto;
+bottom:245px;
+
+}
+
+
+
+.fondo2 { 
+color: rgb(178, 178, 178) ;
+background-color: rgb(178, 178, 178);
+position: relative;
+bottom: 270px;
+left: 15%;
+height: 40px;
+width: 67%;
+
+
+}
+.INICIO {
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+  position: relative;
+  bottom: 325px;
+  left: 20%;
+}
+
+.INICIO:hover {
+  background-color: rgb(135, 134, 134);
+}
+.SERVICIOS {
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+  position: relative;
+  bottom: 325px;
+  left: 20%;
+}
+.SERVICIOS:hover {
+  background-color: rgb(135, 134, 134);
+}
+.UBICACION {
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+  position: relative;
+  bottom: 325px;
+  left: 20%;
+}
+.UBICACION:hover {
+  background-color: rgb(135, 134, 134);
+
+}
+
+.NOTICIAS {
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+  position: relative;
+  bottom: 325px;
+  left: 20%;
+}
+.NOTICIAS:hover {
+  background-color: rgb(135, 134, 134);
+
+}
+.QUIENES_SOMOS {
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+  position: relative;
+  bottom: 325px;
+  left: 20%;
+}
+.QUIENES_SOMOS:hover {
+  background-color: rgb(135, 134, 134);
+}
+.INFORMACION {
+  background-color: rgb(190, 190, 190);
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+  position: relative;
+  bottom: 325px;
+  left: 20%;
+}
+.INFORMACION:hover {
+  background-color: rgb(135, 134, 134);
+}
+
+.SERVICIOS2024 {
+  text-align: center;
+font-size: 30px;
+background-color: red;
+color: white;
+
+}
+
+.cuadrof {
+
+background-color: red;
+width: 400px;
+height: 200px;
+font-size: 15px;
+
+border-radius: 4%;
+position: relative;
+left: 10px;
+color: white;
+}
+.numero2023 {
+font-size: 40px;
+position: relative;
+left:150px;
+text-shadow: 1px;
+
+}
+.so {
+position: relative;
+left: 6%;
+font-size: 17px;
+}
+.cuadroa {
+
+  background-color: red;
+  width: 400px;
+  height: 200px;
+  font-size: 15px;
+  
+  border-radius: 4%;
+  position: relative;
+  left: 35%;
+  color: white;
+  bottom: 210px;
+  }
+.numero95 {
+
+position: relative;
+left: 10%;
+font-size: 100px;
+
+}
+
+.numero16 {
+position: relative;
+left: 35%;
+font-size: 100px;
+
+}
+.numero2022 {
+  font-size: 40px;
+  position: relative;
+  left:150px;
+  text-shadow: 1px;
+  
+  }
+  .soa {
+  position: relative;
+  left: 6%;
+  font-size: 17px;
+  }
+  
+  .numero87 {
+  
+  position: relative;
+  left: 10%;
+  font-size: 100px;
+  
+  }
+  
+  .numero15 {
+  position: relative;
+  left: 35%;
+  font-size: 100px;
+  
+  }
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-box {
+  width: 25%; /* La imagen ocupará el 25% del ancho del contenedor padre */
+  position: relative;
+  margin: 10px;
+}
+
+.image-box img {
+  width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+  height: auto; /* Para mantener la proporción de la imagen */
+  border: 1px solid #ccc; /* Borde de la imagen */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.description-box {
+  background-color: rgba(136, 136, 136, 0.8); /* Color de fondo con opacidad */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* El contenedor de descripción ocupará todo el ancho del contenedor padre */
+  padding: 10px;
+  box-sizing: border-box; /* Para incluir el padding en el ancho total */
+}
+
+.description-box p {
+  text-align: center; /* Centrar el texto */
+  margin: 0; /* Eliminar el margen predeterminado */
+  font-size: 14px; /* Tamaño del texto */
+}
+
+.image-box.left {
+  text-align: left; /* Alinea la imagen a la izquierda */
+}
+
+.image-box.center {
+  text-align: center; /* Alinea la imagen al centro */
+}
+
+.image-box.right {
+  text-align: right; /* Alinea la imagen a la derecha */
+}
